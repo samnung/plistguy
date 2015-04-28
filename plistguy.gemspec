@@ -1,8 +1,14 @@
 # coding: utf-8
 
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+require 'plistguy/version'
+
+
 Gem::Specification.new do |spec|
   spec.name          = 'plistguy'
-  spec.version       = '0.1.0'
+  spec.version       = Plistguy::VERSION
   spec.authors       = ['Roman Kříž']
   spec.email         = ['samnung@gmail.com']
 
