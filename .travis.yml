@@ -3,9 +3,9 @@ os: osx
 language: objective-c
 cache: bundler
 rvm:
+  - ruby-head
   - system
   - 2.2.1
-  - 2.2.2
   - 2.1.5
   - 2.0.0
   - 1.9.3
