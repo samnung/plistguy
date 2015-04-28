@@ -2,6 +2,8 @@
 
 plistguy is wrapper around PlistBuddy to support shell pipes as input so now you can write `cat some.plist | plistguy -c "Print :0"` and it works as you would expect.
 
+[![Build Status](http://img.shields.io/travis/samnung/rb-mac_shortcuts/master.svg?style=flat)](https://travis-ci.org/samnung/rb-mac_shortcuts)
+[![Gem Version](http://img.shields.io/gem/v/mac_shortcuts.svg?style=flat)](http://badge.fury.io/rb/mac_shortcuts)
 
 ## Installation
 
