@@ -23,7 +23,7 @@ if File.exists?(last)
 else
   lines = STDIN.readlines.join("\n")
 
-  file = Tempfile.create('plistguy_temp')
+  file = Tempfile.new('plistguy_temp')
   file.write(lines)
   file.close
 
